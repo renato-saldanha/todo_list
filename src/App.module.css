@@ -1,0 +1,15 @@
+.app {
+  background-color: var(--grey-700);
+  flex-direction: column;  
+}
+
+.body {
+  display: flex;
+  background-color: var(--grey-600);
+  justify-content: center;
+}
+
+.content {
+  width: 43rem;  
+  height: 51rem;
+}

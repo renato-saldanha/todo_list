@@ -1,0 +1,50 @@
+.todoList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 4rem;
+}
+
+.statusLista {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 1rem 0;
+}
+
+.tarefasCriadas {
+  display: flex;
+}
+
+.textoTarefasCriadas {
+  color: var(--blue);
+}
+
+.tarefasConcluidas {
+  display: flex;
+}
+
+.textoTarefasConcluidas {
+  color: var(--purple);
+}
+
+.countTarefasCriadas {
+  color: var(--grey-200);
+  width: 29px;
+  height: 19px;
+  background-color: var(--grey-400);
+  border: 0;
+  border-radius: 9px;
+  margin-left: 0.5rem;
+  text-align: center;
+}
+
+.countTarefasConcluidas {
+  color: var(--grey-200);
+  width: 52px;
+  height: 19px;
+  background-color: var(--grey-400);
+  border: 0;
+  border-radius: 9px;
+  margin-left: 0.5rem;
+  text-align: center;
+}

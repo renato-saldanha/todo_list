@@ -1,0 +1,48 @@
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid var(--grey-400);
+  background-color: var(--grey-500);
+  padding: 0 1rem 0 1rem;
+  height: 3rem;
+  color: var(--grey-100);  
+}
+
+.circle {
+  color: var(--blue);
+  cursor: pointer;
+  transition: backgroud-color 0.2s;
+}
+
+.circle :hover{
+  color: var(--blue-dark);
+}
+
+.checkedCircle {
+  color: var(--purple);
+  cursor: pointer;
+}
+
+.checkedCircle :hover{
+  color: var(--purple-dark);
+}
+
+.delete {
+  color:var(--grey-200);
+  cursor: pointer;
+  transition: backgroud-color 0.2s;
+}
+
+.delete :hover{
+  border: 0;
+  border-radius: 3px;
+  color:var(--danger);
+  background-color: var(--grey-400);
+}
+
+.task b {
+  padding-left: 1rem;
+  width: 100%;
+}

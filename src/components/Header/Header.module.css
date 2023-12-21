@@ -1,0 +1,10 @@
+.header {
+  justify-content: center;
+  display: flex;
+  padding: 3rem 0 3rem 0;  
+}
+
+.header img {
+  margin: 0.5rem;  
+  height: 2rem;
+}
